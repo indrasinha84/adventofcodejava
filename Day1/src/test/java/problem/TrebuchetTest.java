@@ -1,4 +1,4 @@
-package org.example;
+package problem;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -9,10 +9,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class TrebuchetTest {
     String filePath = "src/test/resources/input/input.XSCORE.txt";
-
-    @BeforeEach
-    void setUp() {
-    }
 
     @Test
     void problem1() {
